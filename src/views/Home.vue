@@ -1,12 +1,14 @@
 <template>
   <span>
-    <h1>This is my home page</h1>
+    <home-hero></home-hero>
   </span>
 </template>
 
 <script>
+import HomeHero from "@/components/HomeHero";
 export default {
-  name: "home"
+  name: "home",
+  components: { HomeHero }
 };
 </script>
 
