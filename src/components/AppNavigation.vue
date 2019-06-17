@@ -3,7 +3,7 @@
     <v-navigation-drawer
       app
       v-model="drawer"
-      class="teal accent-5"
+      class="blue-grey lighten-1"
       dark
       disable-resize-watcher
     >
@@ -18,13 +18,16 @@
         </template>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar app color="teal accent-4" dark>
+    <v-toolbar app color="blue-grey lighten-2" dark>
       <v-toolbar-side-icon
         class="hidden-md-and-up"
         @click="drawer = !drawer"
       ></v-toolbar-side-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
-      <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
+      <v-toolbar-title
+        class="font-weight-bold font-italic orange--text text--accent-1 display-2"
+        >{{ appTitle }}</v-toolbar-title
+      >
       <v-btn flat class="hidden-sm-and-down">Menu</v-btn>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn flat class="hidden-sm-and-down">Sign in</v-btn>
@@ -37,7 +40,7 @@ export default {
   name: "AppNavigation",
   data() {
     return {
-      appTitle: "Meal Prep",
+      appTitle: "MCEA",
       drawer: false,
       items: [{ title: "Menu" }, { title: "Sign In" }, { title: "Join" }]
     };
