@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+.my-main-title {
+  font-family: "Montserrat";
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

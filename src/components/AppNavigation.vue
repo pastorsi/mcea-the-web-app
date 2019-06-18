@@ -25,9 +25,10 @@
       ></v-toolbar-side-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <v-toolbar-title
-        class="font-weight-bold font-italic orange--text text--accent-1 display-2"
-        >{{ appTitle }}</v-toolbar-title
+        class="font-weight-bold orange--text text--accent-1 display-2"
       >
+        <span class="my-main-title">{{ appTitle }}</span>
+      </v-toolbar-title>
       <v-btn flat class="hidden-sm-and-down">Menu</v-btn>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn flat class="hidden-sm-and-down">Sign in</v-btn>
