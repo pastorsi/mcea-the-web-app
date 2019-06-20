@@ -15,9 +15,12 @@ export default {
 </script>
 
 <style>
-@import url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap);
 .my-main-title {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+}
+.organisation-acronym {
+  font-family: "Montserrat Alternates", sans-serif;
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

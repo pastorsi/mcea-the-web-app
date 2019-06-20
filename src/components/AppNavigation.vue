@@ -3,7 +3,7 @@
     <v-navigation-drawer
       app
       v-model="drawer"
-      class="blue-grey lighten-1"
+      class="cyan darken-2"
       dark
       disable-resize-watcher
     >
@@ -18,16 +18,16 @@
         </template>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar app color="blue-grey lighten-2" dark>
+    <v-toolbar app color="cyan darken-1" dark>
       <v-toolbar-side-icon
         class="hidden-md-and-up"
         @click="drawer = !drawer"
       ></v-toolbar-side-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <v-toolbar-title
-        class="font-weight-bold orange--text text--accent-1 display-2"
+        class="font-weight-bold orange--text text--accent-1 display-2 mb-1 mt-1"
       >
-        <span class="my-main-title">{{ appTitle }}</span>
+        <span class="organisation-acronym">{{ appTitle }}</span>
       </v-toolbar-title>
       <v-btn flat class="hidden-sm-and-down">Menu</v-btn>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
