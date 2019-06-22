@@ -25,9 +25,9 @@
       ></v-toolbar-side-icon>
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <v-toolbar-title
-        class="font-weight-bold orange--text text--accent-1 display-2 mb-1 mt-1"
+        class="font-weight-bold orange--text text--accent-1 acro"
       >
-        <span class="organisation-acronym">{{ appTitle }}</span>
+        {{ appTitle }}
       </v-toolbar-title>
       <v-btn flat class="hidden-sm-and-down">Menu</v-btn>
       <v-spacer class="hidden-sm-and-down"></v-spacer>

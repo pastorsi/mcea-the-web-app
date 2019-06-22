@@ -16,18 +16,22 @@ export default {
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap);
-.my-main-title {
-  font-family: "Montserrat", sans-serif;
-}
-.organisation-acronym {
-  font-family: "Montserrat Alternates", sans-serif;
+.home-hero {
+  font-family: "Montserrat", Verdana, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 3em;
 }
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+}
+.acro {
+  font-family: "Montserrat Alternates", Verdana, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 #nav {
   padding: 30px;
