@@ -16,17 +16,30 @@ export default {
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap);
-.home-hero {
+.home-hero,
+.my-page-titles,
+.my-subtitles,
+.my-paragraphs {
   font-family: "Montserrat", Verdana, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.home-hero {
   font-size: 3em;
 }
+.my-page-titles {
+  font-size: 2em;
+}
+.my-subtitles {
+  font-size: 1.5em;
+}
+.my-paragraphs {
+  font-size: 1em;
+}
 #app {
-  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  font-family: Verdana, Impact, "Arial Narrow Bold", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 .acro {
   font-family: "Montserrat Alternates", Verdana, Tahoma, sans-serif;
