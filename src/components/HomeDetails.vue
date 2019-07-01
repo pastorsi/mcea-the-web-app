@@ -8,7 +8,7 @@
         <div class="mt-3 my-subtitles">
           What is MCEA
         </div>
-        <p class="mt-3 my-paragraphs">
+        <p class="mt-3 my-paragraphs font-weight-medium">
           MCEA is about people in ministry in Cheltenham and the surrounding
           area meeting up regularly.
         </p>
