@@ -1,15 +1,4 @@
-language: node_js
-node_js:
-  - lts/*
-cache: npm
-install:
-  - npm install
-before_script:
-  - npm prune
-script:
-  - npm test
-before_deploy:
-  - npm run build
+language: generic
 deploy:
   provider: pages
   local_dir: build
@@ -18,5 +7,4 @@ github_token: $GITHUB_TOKEN  # Set this in the settings page of your repository,
   keep_history: true
   on:
     branch: master
-    local-dir: target/generated-docs
     target_branch: gh-pages
