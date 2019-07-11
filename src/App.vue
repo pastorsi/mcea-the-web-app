@@ -17,6 +17,7 @@ export default {
 <style>
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates&display=swap);
 .home-hero,
+.about-hero,
 .my-page-titles,
 .my-subtitles,
 .my-paragraphs {
@@ -24,7 +25,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.home-hero {
+.home-hero,
+.about-hero {
   font-size: 3em;
 }
 .my-page-titles {

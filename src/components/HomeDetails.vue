@@ -9,8 +9,11 @@
           What is MCEA
         </div>
         <p class="mt-3 my-paragraphs font-weight-bold">
-          MCEA is about people in ministry in Cheltenham and the surrounding
-          area meeting up regularly.
+          <acronym title="Mid Cotwold Evangelical Alliance">MCEA</acronym> is
+          about people in ministry in Cheltenham and the surrounding area
+          regularly networking in order to encourage one another, pray for one
+          another and exchange information relevant to united expression of
+          Christianity.
         </p>
       </v-flex>
     </v-layout>
