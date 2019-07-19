@@ -11,7 +11,9 @@
         <template v-for="(item, index) in items">
           <v-list-tile :key="index">
             <v-list-tile-content>
-              {{ item.title }}
+              <router-link :to="{ path: item.route }">
+                {{ item.title }}
+              </router-link>
             </v-list-tile-content>
             <v-divider :key="'divider-${index}'"></v-divider>
           </v-list-tile>
@@ -29,7 +31,8 @@
       >
         {{ appTitle }}
       </v-toolbar-title>
-      <v-btn flat class="hidden-sm-and-down">Menu</v-btn>
+      <v-btn flat to="/" class="hidden-sm-and-down">Home</v-btn>
+      <v-btn flat to="/about" class="hidden-sm-and-down">About</v-btn>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn flat class="hidden-sm-and-down">Sign in</v-btn>
       <v-btn color="brown lighten-3" class="hidden-sm-and-down">Join</v-btn>
@@ -43,9 +46,18 @@ export default {
     return {
       appTitle: "MCEA",
       drawer: false,
-      items: [{ title: "Menu" }, { title: "Sign In" }, { title: "Join" }]
+      items: [
+        { title: "Home", route: "/" },
+        { title: "Sign In" },
+        { title: "Join" }
+      ]
     };
   }
 };
 </script>
-<style scoped></style>
+<style scoped>
+a {
+  color: white;
+  text-decoration: none;
+}
+</style>
