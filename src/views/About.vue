@@ -1,6 +1,8 @@
 <template>
   <span>
-    <home-details></home-details>
+    <v-content>
+      <home-details></home-details>
+    </v-content>
   </span>
 </template>
 
