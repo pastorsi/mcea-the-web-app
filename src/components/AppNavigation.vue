@@ -33,6 +33,7 @@
       </v-toolbar-title>
       <v-btn flat to="/" class="hidden-sm-and-down">Home</v-btn>
       <v-btn flat to="/about" class="hidden-sm-and-down">About</v-btn>
+      <v-btn flat to="/affiliates" class="hidden-sm-and-down">Affiliates</v-btn>
       <v-spacer class="hidden-sm-and-down"></v-spacer>
       <v-btn flat class="hidden-sm-and-down">Sign in</v-btn>
       <v-btn color="brown lighten-3" class="hidden-sm-and-down">Join</v-btn>
@@ -48,6 +49,8 @@ export default {
       drawer: false,
       items: [
         { title: "Home", route: "/" },
+        { title: "About", route: "/about" },
+        { title: "Affiliates", route: "/affiliates" },
         { title: "Sign In" },
         { title: "Join" }
       ]
