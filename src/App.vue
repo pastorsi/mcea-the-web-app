@@ -7,10 +7,26 @@
   </v-app>
 </template>
 <script>
+const token = "rP1zTIrKPe3mGZAZ1bdQEgtt";
 import AppNavigation from "@/components/AppNavigation";
 export default {
   name: "App",
-  components: { AppNavigation }
+  components: { AppNavigation },
+  data() {
+    return {
+      msg: "Welcome to Your Vue.js App",
+      story: {
+        content: {
+          body: []
+        }
+      }
+    };
+  },
+  created() {
+    window.storyblok.init({
+      accessToken: token
+    });
+  }
 };
 </script>
 

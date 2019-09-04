@@ -25,6 +25,7 @@ export default {
 <style scoped>
 .home-hero {
   background: url("https://source.unsplash.com/dGxOgeXAXm8");
+  clip-path: inset(0 0 0 0);
   background-size: cover;
   width: 100%;
   height: 100%;
