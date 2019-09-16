@@ -9,7 +9,7 @@
 
 <script>
 import AffiliateInfo from "@/components/AffiliateInfo";
-import AffiliateCards from "@/components/AffiliateCards"
+import AffiliateCards from "@/components/AffiliateCards";
 export default {
   name: "Affiliates",
   components: {
