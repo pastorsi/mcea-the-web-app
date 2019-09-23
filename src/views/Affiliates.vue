@@ -1,8 +1,14 @@
 <template>
   <span>
     <v-content>
-      <affiliate-info></affiliate-info>
-      <affiliate-cards></affiliate-cards>
+      <v-container grid-list-lg>
+        <affiliate-info></affiliate-info>
+        <v-layout>
+          <v-flex>
+            <affiliate-cards></affiliate-cards>
+          </v-flex>
+        </v-layout>
+      </v-container>
     </v-content>
   </span>
 </template>
